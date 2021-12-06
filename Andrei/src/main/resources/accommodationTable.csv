@@ -1,0 +1,6 @@
+type,bed_type,max_guests,description
+single,one single bed,1,standard room with air conditioning
+double,two single bed,2,air conditioning standard room
+triple,1 single and 1 double bed,3,air conditioning standard room
+double lux,1 king size bed,2,air conditioning lux room
+single lux,1 queen size bed,1,air conditioning lux room
