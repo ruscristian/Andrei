@@ -9,6 +9,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 
@@ -138,12 +139,12 @@ public class JdbcTest {
             ResultSet fareResultSet = fareData.executeQuery();
 
 
-            ArrayList<Integer> accIdList = new ArrayList<>();
+            List<Integer> accIdList = new ArrayList<>();
             while (accResultSet.next()) {
                 accIdList.add(accResultSet.getInt("id"));
             }
 
-            ArrayList<Integer> fareIdList = new ArrayList<>();
+            List<Integer> fareIdList = new ArrayList<>();
             while (fareResultSet.next()) {
                 fareIdList.add(fareResultSet.getInt("id"));
             }
