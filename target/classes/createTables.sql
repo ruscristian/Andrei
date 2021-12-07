@@ -27,17 +27,3 @@ CREATE TABLE accommodation_fare_relation
 --    REFERENCES room_fare (id)
 
 );
-
-ALTER TABLE accommodation_fare_relation
-
-    ON UPDATE NO ACTION
-    ON DELETE NO ACTION
-    ;
-
-
-ALTER TABLE accommodation_fare_relation
---    ADD FOREIGN KEY (id_room_fare)
---    REFERENCES room_fare (id)
-    ON UPDATE NO ACTION
-    ON DELETE NO ACTION
-   ;
